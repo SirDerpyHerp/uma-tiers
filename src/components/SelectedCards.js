@@ -105,7 +105,7 @@ function SelectedCards(props) {
             <div class="link">
                 <a href={getEventHelperURL(props.selectedCards)} target="_blank">Open in Gametora Event Helper</a>
             </div>
-            <div>
+            {/* <div>
                 Presets:
                 <button className="btn-preset" onClick={()=>props.onLoadPreset([20023,20033,20009,20003,30137])}>Speed/Power</button>
                 <button className="btn-preset" onClick={()=>props.onLoadPreset([20023,20033,20008,30022,30137])}>Speed/Stamina</button>
@@ -116,7 +116,7 @@ function SelectedCards(props) {
                 <button className="btn-preset" onClick={()=>props.onLoadPreset([20012,20016,20025,20002,10060])}>Aoharu Parent</button>
                 <button className="btn-preset" onClick={()=>props.onLoadPreset([30028,20008,20009,30019,20012])}>Highlander</button>
                 <button className="btn-preset" onClick={()=>props.onLoadPreset([20031,30074,20027,20012,30054])}>Race Bonus</button>
-            </div>
+            </div> */}
         </div>
     );
 }

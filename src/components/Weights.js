@@ -630,10 +630,10 @@ class Weights extends React.Component {
                             Which scenario you're playing in.<br/>
                             Changes the stat gains from trainings and some default values.
                         </div>
-                        <button id="reset-weights-GL" type="button" onClick={this.onGMReset}>GM</button>
+                        {/* <button id="reset-weights-GL" type="button" onClick={this.onGMReset}>GM</button>
                         <button id="reset-weights-GL" type="button" onClick={this.onGLReset}>GL</button>
                         <button id="reset-weights-MANT" type="button" onClick={this.onMANTReset}>MANT</button>
-                        <button id="reset-weights-URA" type="button" onClick={this.onAoharuReset}>Aoharu</button>
+                        <button id="reset-weights-URA" type="button" onClick={this.onAoharuReset}>Aoharu</button> */}
                         <button id="reset-weights-URA" type="button" onClick={this.onURAReset}>URA</button>
                     </div>
                     <div className="weight-row">
@@ -657,7 +657,7 @@ class Weights extends React.Component {
                         <label for="races.2">OP/Pre-OP</label>
                         <NumericInput onChange={this.onGeneralSettingChanged} type="number" id="races.2" value={this.state.general.races[2]} min={0} max={30} step={1}/>
                     </div>
-                    <div className="weight-row">
+                    {/* <div className="weight-row">
                         <div class="section-header">Scenario Specific</div>
                         <div class="section-explanation">
                             Multiplier accounts for MANT items and GL friendship songs.<br/>
@@ -667,7 +667,7 @@ class Weights extends React.Component {
                         <NumericInput onChange={this.onGeneralSettingChanged} type="number" id="multi" value={this.state.general.multi} min={1} max={2.2} step={0.05}/>
                         <label for="bonusSpec">Bonus Specialty:</label>
                         <NumericInput onChange={this.onGeneralSettingChanged} type="number" id="bonusSpec" value={this.state.general.bonusSpec} min={-1} max={95} step={5}/>
-                    </div>
+                    </div> */}
                     <div className="weight-row">
                         <div class="section-header">Stat Weights</div>
                         <div class="section-explanation">

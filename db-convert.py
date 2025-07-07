@@ -218,7 +218,7 @@ with sqlite3.connect(args.dblocation) as conn:
             # 0 id | 1 lv | 2 type_0 | 3 value_0　... | 8 type_1 | 9 value_1
             unique = cursor.fetchone()
             if unique is not None:
-                for u in range(0,10,6):
+                for u in range(0,4,2):
                     type_0 = int(unique[2 + u])
                     if type_0 == 1:
                         current_card.unique_fs_bonus += int(unique[3 + u]) / 100

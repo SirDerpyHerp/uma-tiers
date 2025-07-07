@@ -52,11 +52,11 @@ class App extends React.Component {
                 onlySummer: false,
             },
             selectedCards: [
-                cards.find((c) => c.id === 20023 && c.limit_break === 4),
-                cards.find((c) => c.id === 20033 && c.limit_break === 4),
-                cards.find((c) => c.id === 20009 && c.limit_break === 4),
-                cards.find((c) => c.id === 30134 && c.limit_break === 4),
-                cards.find((c) => c.id === 30137 && c.limit_break === 0),
+                cards.find((c) => c.id === 10001 && c.limit_break === 4),
+                cards.find((c) => c.id === 10002 && c.limit_break === 4),
+                cards.find((c) => c.id === 10003 && c.limit_break === 4),
+                cards.find((c) => c.id === 10004 && c.limit_break === 4),
+                cards.find((c) => c.id === 10005 && c.limit_break === 0),
             ],
             availableCards: cards,
             label: "Ranking for the 4th Speed card in this deck:"
